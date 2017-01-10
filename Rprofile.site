@@ -23,4 +23,7 @@
  .First <- function() cat("\n   Hi daddy\n\n")
  setwd("C:/Users/eyy/Documents/Snitlab/R-R/Stats 250")
 # options(defaultPackages=c(getOption("defaultPackages"), "Rcmdr", "SparseM", "car"))
+# install.packages("Rcmdr", dep=T, repos = "httyp://cran.us.r-project.org/")
+# install.packages("SparseM", dep=T, repos = "httyp://cran.us.r-project.org/")
+# install.packages("car", dep=T, repos = "httyp://cran.us.r-project.org/")
  .Last <- function()  cat("\n   Goodbye!\n\n")
